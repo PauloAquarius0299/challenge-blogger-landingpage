@@ -1,0 +1,176 @@
+@import '../../styles/variables.scss';
+
+.business{
+    padding: 8rem 5rem;
+    background-color: $whiteWeb;
+    display: flex;
+    .title{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        h1{
+            color: $fontBold;
+            font-size: 2.4rem;
+        }
+        img{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 120px;
+
+        }
+        .circle-img {
+            display: block;
+            width: 430px; 
+            height: 250px; 
+            background-image: url('../../assets/IMAGE HERE.png'); 
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover; 
+            margin-left: 10rem; 
+            margin-top: 3.5rem;
+            left: 30%;
+            transform: translateX(-50%);
+          }
+    }
+    .container{
+        margin-top: 8rem;
+        p{
+            font-family: "Roboto";
+            color: $textColor
+        }
+        
+        .box-table {
+            display: flex;
+            margin-top: 2rem;
+            right: 1rem;
+            .box {
+              width: 182px; 
+              padding: 20px;
+              border: 3px solid $lightColor;
+              border-radius: 24px;
+              text-align: center;
+              margin-bottom: 20px;
+          
+              span {
+                font-weight: bold;
+                font-size: 15px;
+                color: $fontBold;
+                font-family: "Roboto";
+                font-weight: bold;
+              }
+          
+              hr {
+                border: none;
+                border-top: 2px solid $lightColor;
+                margin: 10px auto;
+                width: 110%;
+               
+              }
+          
+              p {
+                font-size: 14px;
+                padding: 8px;
+                color: $fontBold;
+              }
+              
+            }.box-2{
+                width: 182px; 
+                padding: 20px;
+                border: 3px solid $lightColor;
+                border-radius: 24px;
+                text-align: center;
+                margin-bottom: 20px;
+                background-color: $fontBold;
+                span {
+                    font-weight: bold;
+                    font-size: 15px;
+                    color: $whiteWeb;
+                    font-family: "Roboto";
+                    font-weight: bold;
+                    background-color: $fontBold;
+                  }
+              
+                  hr {
+                    border: none;
+                    border-top: 2px solid $lightColor;
+                    margin: 10px auto;
+                    width: 110%;
+                   
+                  }
+              
+                  p {
+                    font-size: 14px;
+                    padding: 8px;
+                    color: $whiteWeb;
+                    background-color: transparent;
+                  }
+              }
+          }
+    }
+    button{
+        padding: 0.8rem 2.1rem ;
+        border-radius: 24px;
+        border: 3px solid $fontBold;
+        background-color: $fontColor;
+        color: $whiteWeb;
+        font-family: 'Roboto';
+        margin-right: 10rem;
+        cursor: pointer;
+        &:hover{
+            background-color: $fontBold;
+        }
+    }
+   
+} 
+@media only screen and (max-width: 768px){
+    .business {
+        padding: 2rem; 
+        background-color: $whiteWeb;
+        display: flex;
+        flex-direction: column; 
+      
+        .title {
+          h1 {
+            font-size: 1.6rem; 
+            align-items: center;
+            justify-content: center;
+            display: flex;
+          }
+      
+          img {
+            width: 80px; 
+          }
+      
+          .circle-img {
+            margin-right: -18rem;
+          }
+        }
+      
+        .container {
+          margin-top: 2rem; 
+          p{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+          }
+      
+          .box-table {
+            flex-direction: column; 
+      
+            .box,
+            .box-2 {
+              width: 100%; 
+              margin-bottom: 1rem; 
+              width: 100%;
+            }
+          }
+        }
+      
+        button {
+          margin-right: 0; 
+          
+        }
+      }
+      
+}

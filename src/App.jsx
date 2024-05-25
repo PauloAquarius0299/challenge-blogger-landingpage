@@ -3,6 +3,7 @@ import Hero from "./components/hero/Hero"
 import Login from "./components/login/Login"
 import Midia from "./components/midia/Midia"
 import Navbar from "./components/navbar/Navbar"
+import Package from "./components/package/Package"
 
 function App() {
  
@@ -14,6 +15,7 @@ function App() {
      <Midia/>
      <Business />
      <Login />
+     <Package />
     </>
   )
 }

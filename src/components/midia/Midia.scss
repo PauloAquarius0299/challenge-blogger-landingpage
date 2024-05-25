@@ -1,0 +1,84 @@
+@import '../../styles/variables.scss';
+
+.midia{
+    display: flex;
+    justify-content: space-between;
+    padding: 4rem;
+    margin-top: -2rem;
+    background: $fontColor;
+    border-radius: 28px  ;
+    flex-direction: column;
+    @media (min-width: 769px) {
+        flex-direction: row; 
+        align-items: flex-start; 
+        justify-content: space-between; 
+      }
+    .container{
+        margin-bottom: 1rem;
+        background-color: transparent;
+        flex-direction: column;
+        h1{
+            background-color: $fontColor;
+            color: $fontBold;
+            font-size: 2rem;
+            margin-bottom: 1.8rem;
+        }
+        .box-circle {
+            display: flex;
+            background-color: $fontColor;
+            align-items: flex-start;
+            p {
+              padding: 10px 1.6rem; 
+              background-color: $fontColor;
+              border: 2px solid $whiteWeb; 
+              border-radius: 22px; 
+              font-family: "Roboto", sans-serif;
+              font-weight: 500;
+              color: $whiteWeb;
+              span{
+                background-color: $fontColor;
+                font-family: "Roboto";
+                color: $fontBold;
+                font-weight:bold;
+              }
+            }
+          }
+          .box-content{
+            margin-bottom: 2rem;
+            margin-top: 1.8rem;
+            padding: 2.8rem ;
+            border-radius: 24px;
+            display: flex; 
+            align-items: flex-start; 
+            flex-direction: row;
+
+            svg{
+                font-size: 14px;
+                margin-right: 10px;
+                color: $fontBold;
+            }
+            p{
+                font-family: "Roboto";
+                font-size: 13px;
+                color: $fontBold;
+                flex: 1;
+                gap: 2px;
+                
+            }
+           
+          }
+          .text{
+            font-family: "Roboto";
+            background-color: $fontColor;
+            color: $whiteWeb;
+            font-size: 16px;
+            @media (min-width: 769px) {
+                flex-basis: 50%; 
+              }
+          }
+    }
+    @media (max-width: 768px) {
+        flex-direction: column; // Muda a direção para coluna em telas menores que 769px
+        padding: 1.5rem; // Ajusta o preenchimento para telas menores
+      }
+}

@@ -2,7 +2,6 @@
 import React from 'react'
 import './Hero.scss'
 import HeroImage from '../../assets/IMAGE HERE.png'
-import Vetor from '../../assets/Vector 2.png'
 
 const Hero = () => {
   return (
@@ -29,7 +28,7 @@ const Hero = () => {
            <li>89%</li><span>AGENCY RATE</span>
          </div>
            <div className="stat-item">
-             <li>2026</li><span>BEGIN ON</span>
+             <li>2016</li><span>BEGIN ON</span>
           </div>
            </div>
            </span>

@@ -12,6 +12,38 @@ O desafio consesiste em desemvolver o design de uma landing page simples porem, 
 ![SASS](https://img.shields.io/badge/SASS-hotpink.svg?style=for-the-badge&logo=SASS&logoColor=white)
 ![Vite](https://img.shields.io/badge/vite-%23646CFF.svg?style=for-the-badge&logo=vite&logoColor=white)
 
+## Segue abaixo as instruções:
+
+Segue anexo a este e-mail um arquivo de layout que você poderá abrir através do Figma.
+
+Seu teste consiste em reproduzir esse layout da maneira mais fiel possível.
+
+Os requisitos a serem avaliados são:
+
+Qualidade do código: legibilidade, estrutura e organização.
+Boas práticas de programação: aderência a padrões e convenções de código.
+Funcionalidade: o layout deve ser totalmente funcional conforme especificado.
+Responsividade: o design deve se adaptar a diferentes tamanhos de tela (desktop, tablet e mobile).
+Design e usabilidade da interface: a interface deve ser intuitiva e fácil de usar.
+Você pode usar as imagens que quiser, ou nenhuma conforme o layout enviado.
+
+Pode usar a fonte que for melhor para você.
+
+Caso queira alterar os textos, fique à vontade.
+
+IMPORTANTE: Deixar claro no e-mail de entrega, qual framework e versão foi utilizada.
+
+Entrega do teste:
+
+O teste deverá ser entregue em duas etapas:
+
+1. Enviar link do repositório por e-mail.
+
+2. Criação de repositório no GitHub. 
+
+Repositório público
+Deve existir no repositório o arquivo README.md com a descrição do teste conforme informações existentes neste arquivo. Informações extras são opcionais;
+Para cada funcionalidade do sistema deve haver um commit
 
 # React + Vite
 

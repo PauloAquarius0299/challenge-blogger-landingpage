@@ -1,22 +1,27 @@
 @import "../../styles/variables.scss";
 
 .navbar {
-    padding: 2.2rem 3.5rem;
-    flex-direction: row;
-    .navbar-container {
+  padding: 2.2rem 3.5rem;
+  flex-direction: row;
+
+  .navbar-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .navbar-logo img {
+      max-height: 50px;
+    }
+
+    .navbar-content {
       display: flex;
-      justify-content: space-between;
       align-items: center;
-  
-      .navbar-logo img {
-        max-height: 50px; 
-      }
-  
-      .navbar-content ul {
+
+      ul {
         list-style: none;
         display: flex;
         gap: 1.5rem;
-        
+
         li {
           color: $whiteWeb;
           font-size: 1rem;
@@ -24,13 +29,14 @@
           font-family: "Roboto", sans-serif;
           font-weight: 500;
           color: $fontBold;
+
           &:hover {
             color: $lightColor;
             font-size: 1.1rem;
           }
         }
       }
-  
+
       button {
         background-color: $fontBold;
         color: white;
@@ -40,54 +46,72 @@
         border-radius: 16px;
         transition: background-color 0.3s;
         font-family: "Roboto", sans-serif;
-        
+
         &:hover {
           background-color: darken($fontColor, 10%);
         }
       }
     }
+
     .hamburger {
-        display: none;
-        cursor: pointer;
+      display: none;
+      cursor: pointer;
+      color: $fontBold;
+
+      svg {
         color: $fontBold;
-  
-        svg {
-          color: $fontBold;
-          width: 24px;
-          height: 24px;
-        }
+        width: 24px;
+        height: 24px;
       }
+    }
   }
-  // Estilos para dispositivos móveis
-  @media (max-width: 768px) {
+}
+
+@media (max-width: 768px) {
+  .navbar {
+    padding: 1rem;
+
     .navbar-container {
+      //flex-direction: column;
+      gap: 18rem;
+      align-items: flex-start;
+
       .navbar-content {
         display: none;
+        flex-direction: column;
+        width: 100%;
+        
+        &.open {
+          display: flex;
+        }
 
         ul {
-          display: none;
-          
+          flex-direction: column;
+          width: 100%;
+          gap: 1rem;
+
           li {
-            display: none;
+            display: block;
+            width: 100%;
+            text-align: left;
           }
         }
 
-       
-      }
-      button{
-        display: none;
+        button {
+          width: 100%;
+        }
       }
 
       .hamburger {
-        display: flex; 
+        display: flex;
         align-items: center;
-        justify-content: center; 
-
-        svg{
-            width: 32px; 
+        justify-content: space-between;  
+        flex: 1;  
+        svg {
+          width: 32px;
           height: 32px;
         }
       }
     }
   }
-  
+}

@@ -1,7 +1,7 @@
 # Challange Blogger LandingPage AeC
 Desafio frontend blogger landingpage da AeC com React e Sass
 ## Introdução 
-O desafio consesiste em desemvolver o design de uma landing page simples porem, com desafio de estilização CSS3 utilizando o valor flex para posionar imagens e textos na interface desktop e mobile de forma mais leal possivel ao design do figma, durante o desafio obtive dificuldade de posionar certos elementos de imagens, mas no final, cheguei ao resultado esperado e a conclusão do desafio. No vscode, instalei o React com Vite criando um hambiente de desemvolvimento mais rapida e pratica, defini as cores de estilo no inicio da aplicação e criei a pasta components, onde por ela estão as pasta com as seções da landing page e o componentes rendenizados no componente principal da minha aplicação App.jsx.
+O desafio consiste em desenvolver o design de uma landing page simples porem, com desafio de estilização CSS3 utilizando o valor flex para posicionar imagens e textos na interface desktop e mobile de forma mais leal possível ao design do figma, durante o desafio obtive dificuldade de posicionar certos elementos de imagens, mas no final, cheguei ao resultado esperado e a conclusão do desafio. No vscode, instalei o React com Vite criando um ambiente de desenvolvimento mais rápida e prática, defini as cores de estilo no início da aplicação e criei a pasta components, onde por ela estão as pasta com as seções da landing page e o componentes renderizados no componente principal da minha aplicação App.jsx.
 ### Pre-Requisitos
 * React com Vite
 * Sass
